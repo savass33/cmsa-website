@@ -1,58 +1,73 @@
-# 🌿 Comunidade Mariana Sagrado Amor — Website Institucional
+# React + TypeScript + Vite
 
-Website institucional da **Comunidade Mariana Sagrado Amor (CMSA)**, comunidade católica situada em Fortaleza–CE, cujo carisma é **dar a conhecer o Amor a todo coração pobre**, por meio de uma espiritualidade mariana e cristocêntrica.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Este projeto tem como objetivo centralizar informações institucionais, espirituais e pastorais da comunidade em um único ambiente digital, servindo como ponto de encontro entre a comunidade e seus membros, visitantes e interessados.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## ✝️ Sobre a Comunidade
+## React Compiler
 
-A **Comunidade Mariana Sagrado Amor** é uma comunidade católica que vive e anuncia o amor de Deus a partir de uma espiritualidade profundamente mariana, fundamentada no **Sagrado Amor**, expressão viva do amor divino que edifica a Igreja.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Saiba mais no nosso [Instagram](https://www.instagram.com/com.sagradoamor/)
+## Expanding the ESLint configuration
 
-Sua missão é evangelizar, formar e acolher, promovendo uma vivência comunitária da fé por meio de:
-- Oração
-- Vida fraterna
-- Celebrações
-- Formações espirituais
-- Eventos pastorais
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
----
+```js
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
 
-## 🎯 Objetivo do Projeto
+      // Remove tseslint.configs.recommended and replace with this
+      tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      tseslint.configs.stylisticTypeChecked,
 
-Desenvolver um **site institucional moderno, acessível e fiel à identidade espiritual da comunidade**, que permita:
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
 
-- Apresentar a história, missão e carisma da comunidade
-- Divulgar eventos, formações e atividades pastorais
-- Facilitar o contato com a comunidade
-- Fortalecer a presença digital institucional
-- Servir como base para futuras expansões (blog, área de membros, agenda, etc.)
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
----
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-## 🧱 Tecnologias Utilizadas
-
-### **Frontend**
-- **JavaScript (ES6+)**
-- **React**
-- **Tailwind CSS**
-- **Vite** (ambiente de desenvolvimento)
-- **React Router DOM** (roteamento)
-- **Axios / Fetch API** (requisições HTTP)
-
-### **UI / UX**
-- Design responsivo (Mobile First)
-- Componentização com foco em reutilização
-- Paleta inspirada na identidade litúrgica e mariana
-- Tipografia limpa e acessível
-
-### **Qualidade & Organização**
-- ESLint
-- Prettier
-- Padrões de commits semânticos
-- Estrutura escalável de pastas
-
----
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
