@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../assets/images/logo-min.png";
 import { Button } from "./ui/button";
 
