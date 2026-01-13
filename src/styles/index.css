@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&family=JetBrains+Mono:wght@400;500&display=swap");
+@import "tailwindcss";
+@font-face {
+  font-family: "Sole Sans";
+  src: url("../assets/fonts/SoleSans-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================================
+   DESIGN TOKENS
+   ========================================= */
+
+@theme {
+  /* 
+   * TYPOGRAPHY
+   */
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Sole Sans", "Inter", sans-serif;
+  --font-accent: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* overriding tailwind pattern */
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-heading);
+
+  /* 
+   * COLOR PALETTES 
+   */
+
+  /* Primary (Vinho) */
+  --color-primary-50: #fdf5f5;
+  --color-primary-100: #f8dede;
+  --color-primary-200: #efbebe;
+  --color-primary-300: #e0a1a1;
+  --color-primary-400: #c96b6b;
+  --color-primary-500: #750101;
+  --color-primary-600: #670101;
+  --color-primary-700: #5a0101;
+  --color-primary-800: #4a0000;
+  --color-primary-900: #3a0000;
+  --color-primary: var(--color-primary-500);
+
+  /* Secondary (Dourado) */
+  --color-secondary-50: #fbf8f1;
+  --color-secondary-100: #f7f2e8;
+  --color-secondary-200: #efe4c8;
+  --color-secondary-300: #e6d6a8;
+  --color-secondary-400: #d6bf78;
+  --color-secondary-500: #c2a24d;
+  --color-secondary-600: #ad8e3f;
+  --color-secondary-700: #9a8038;
+  --color-secondary-800: #7f682e;
+  --color-secondary-900: #665425;
+  --color-secondary: var(--color-secondary-500);
+
+  /* Neutral (Cinza) */
+  --color-neutral-50: #fafafa;
+  --color-neutral-100: #f4f4f5;
+  --color-neutral-200: #e4e4e7;
+  --color-neutral-300: #d4d4d8;
+  --color-neutral-400: #a1a1aa;
+  --color-neutral-500: #71717a;
+  --color-neutral-600: #52525b;
+  --color-neutral-700: #3f3f46;
+  --color-neutral-800: #27272a;
+  --color-neutral-900: #18181b;
+  --color-neutral: var(--color-neutral-500);
+
+  /* 
+   * SEMANTIC TOKENS
+   */
+
+  /* Text */
+  --color-text-primary: var(--color-neutral-50);
+  --color-text-secondary: var(--color-neutral-600);
+  --color-text-inverted: var(--color-neutral-900);
+
+  /* Background */
+  --color-bg-default: var(--color-neutral-50);
+  --color-bg-muted: var(--color-neutral-100);
+  --color-bg-dark: var(--color-neutral-900);
+
+  /* Border */
+  --color-border-default: var(--color-neutral-200);
+  --color-border-hover: var(--color-neutral-300);
+  /* Status Tokens */
+  --color-status-success: var(--color-success-500);
+  --color-status-error: var(--color-error-500);
+  --color-status-warning: var(--color-warning-500);
+  --color-status-info: var(--color-info-500);
+
+  /* 
+   * ANIMATIONS
+   */
+  --animate-fade-in-up: fade-in-up 0.8s ease-out forwards;
+  --animate-fade-in: fade-in 1s ease-out forwards;
+  --animate-float: float 6s ease-in-out infinite;
+  
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+}
+
+/* =========================================
+   COMPONENTS
+   ========================================= */
+
+@layer components {
+  /* Button Component */
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg px-4 py-2.5 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none cursor-pointer;
+  }
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500 shadow-sm;
+  }
+  .btn-secondary {
+    @apply bg-secondary-100 text-secondary-900 hover:bg-secondary-200 focus:ring-secondary-500;
+  }
+  .btn-outline {
+    @apply border border-neutral-300 bg-transparent text-neutral-700 hover:bg-neutral-50 focus:ring-neutral-500;
+  }
+  .btn-ghost {
+    @apply bg-transparent text-neutral-700 hover:bg-neutral-100 focus:ring-neutral-500;
+  }
+  .btn-link {
+    @apply text-primary-600 underline-offset-4 hover:underline focus:ring-0 shadow-none px-0 py-0 h-auto;
+  }
+}
+
+/* 
+   GLOBAL STYLES 
+*/
+@layer base {
+  body {
+    font-family: var(--font-body);
+    @apply antialiased text-text-primary bg-bg-default;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    @apply font-bold text-primary-900;
+  }
+
+  /* utility class for highlight */
+  .font-accent {
+    font-family: var(--font-accent);
+  }
+}
