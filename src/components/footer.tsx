@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../assets/images/logo-removebg.png";
 import { socialLinks } from "../data/socialLinks";
 
