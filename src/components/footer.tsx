@@ -120,7 +120,7 @@ export default function Footer() {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-neutral-400 hover:text-primary-400 transition-colors text-sm font-medium border border-neutral-700 px-3 py-1 rounded-md hover:border-primary-500"
+                    className="text-neutral-400 hover:text-text-primary transition-colors text-sm font-medium border border-neutral-700 px-3 py-1 rounded-md hover:border-primary-500"
                   >
                     {link.name}
                   </a>
