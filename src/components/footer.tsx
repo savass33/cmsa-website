@@ -1,6 +1,9 @@
-import React from "react";
 import logo from "../assets/images/logo-removebg.png";
 import { socialLinks } from "../data/socialLinks";
+import { MdEmail } from "react-icons/md";
+import { MdLocalPhone } from "react-icons/md";
+import { MdLocationPin } from "react-icons/md";
+
 
 export default function Footer() {
   return (
@@ -26,8 +29,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-neutral-300 leading-relaxed max-w-xs">
-              Evangelizando com amor e carisma agostiniano. Uma família unida
-              pela fé e pelo serviço ao próximo.
+              Dar a conhecer o Amor a todo coração pobre
             </p>
           </div>
 
@@ -87,7 +89,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 text-sm text-neutral-300">
               <li className="flex items-start gap-2">
-                <span>📍</span>
+                <MdLocationPin />
                 <span>
                   Vila Dália, 5 - Aeroporto
                   <br />
@@ -95,13 +97,13 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex items-center gap-2">
-                <span>📧</span>
+                <MdEmail />
                 <span className="hover:text-white">
                   comunidadesagradoamor@gmail.com
                 </span>
               </li>
               <li className="flex items-center gap-2">
-                <span>📞</span>
+                <MdLocalPhone />
                 <a href="https://api.whatsapp.com/send?phone=5585998087212&text=Ol%C3%A1!%20Vim%20pela%20p%C3%A1gina%20da%20Sagrado%20Amor%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20Comunidade!">
                   +55 85 9808-7212
                 </a>
