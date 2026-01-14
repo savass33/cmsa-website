@@ -99,6 +99,6 @@ Para configurar e rodar o projeto localmente:
 
 Contribuições são bem-vindas! Por favor, entre em contato para mais informações sobre como contribuir com o projeto.
 
-## Licença
+## Acompanhe o desenvolvimento
+Atualmente o projeto está hospedado em um [link](https://cmsa-website-pa1d.vercel.app/) pela Vercel, caso tenha curiosidade basta acessar
 
-[Inserir tipo de licença, ex: MIT, ou indicar "Todos os direitos reservados".]
