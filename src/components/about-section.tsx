@@ -1,6 +1,5 @@
 import { Button } from "./ui/button";
 import { useNavigate } from "react-router-dom";
-import casebre from "../assets/images/casebre.jpeg";
 import foto2025 from "../assets/images/compromisso2025.jpeg"
 
 export default function AboutSection() {
