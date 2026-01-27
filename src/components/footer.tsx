@@ -1,9 +1,13 @@
 import logo from "../assets/images/logo-removebg.png";
 import { socialLinks } from "../data/socialLinks";
+import { MdEmail } from "react-icons/md";
+import { MdLocalPhone } from "react-icons/md";
+import { MdLocationPin } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary-800 text-neutral-200 font-body border-t-4 w-full">
+    <footer className="bg-primary-800 text-neutral-200 w-full">
       <div className="max-w-7xl mx-auto px-6 py-6">
         {/* --- principal grid --- */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -25,8 +29,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-neutral-300 leading-relaxed max-w-xs">
-              Evangelizando com amor e carisma agostiniano. Uma família unida
-              pela fé e pelo serviço ao próximo.
+              Dar a conhecer o Amor a todo coração pobre
             </p>
           </div>
 
@@ -37,44 +40,44 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/about"
                   className="hover:text-primary-300 transition-colors"
                 >
                   Sobre Nós
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/charisma"
                   className="hover:text-primary-300 transition-colors"
                 >
                   Carisma & Missão
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/ministries"
                   className="hover:text-primary-300 transition-colors"
                 >
                   Ministérios
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/events"
                   className="hover:text-primary-300 transition-colors"
                 >
                   Eventos
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/donate"
                   className="hover:text-primary-300 transition-colors"
                 >
                   Seja um Benfeitor
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -86,7 +89,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 text-sm text-neutral-300">
               <li className="flex items-start gap-2">
-                <span>📍</span>
+                <MdLocationPin />
                 <span>
                   Vila Dália, 5 - Aeroporto
                   <br />
@@ -94,13 +97,13 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex items-center gap-2">
-                <span>📧</span>
+                <MdEmail />
                 <span className="hover:text-white">
                   comunidadesagradoamor@gmail.com
                 </span>
               </li>
               <li className="flex items-center gap-2">
-                <span>📞</span>
+                <MdLocalPhone />
                 <a href="https://api.whatsapp.com/send?phone=5585998087212&text=Ol%C3%A1!%20Vim%20pela%20p%C3%A1gina%20da%20Sagrado%20Amor%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20Comunidade!">
                   +55 85 9808-7212
                 </a>
@@ -119,7 +122,7 @@ export default function Footer() {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-neutral-400 hover:text-primary-400 transition-colors text-sm font-medium border border-neutral-700 px-3 py-1 rounded-md hover:border-primary-500"
+                    className="text-neutral-400 hover:text-text-primary transition-colors text-sm font-medium border border-neutral-700 px-3 py-1 rounded-md hover:border-primary-500"
                   >
                     {link.name}
                   </a>
