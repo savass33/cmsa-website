@@ -3,11 +3,11 @@ import { socialLinks } from "../data/socialLinks";
 import { MdEmail } from "react-icons/md";
 import { MdLocalPhone } from "react-icons/md";
 import { MdLocationPin } from "react-icons/md";
-
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary-800 text-neutral-200 font-body border-t-4 w-full">
+    <footer className="bg-primary-800 text-neutral-200 w-full">
       <div className="max-w-7xl mx-auto px-6 py-6">
         {/* --- principal grid --- */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -40,44 +40,44 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/about"
                   className="hover:text-primary-300 transition-colors"
                 >
                   Sobre Nós
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/charisma"
                   className="hover:text-primary-300 transition-colors"
                 >
                   Carisma & Missão
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/ministries"
                   className="hover:text-primary-300 transition-colors"
                 >
                   Ministérios
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/events"
                   className="hover:text-primary-300 transition-colors"
                 >
                   Eventos
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/donate"
                   className="hover:text-primary-300 transition-colors"
                 >
                   Seja um Benfeitor
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

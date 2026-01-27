@@ -3,7 +3,7 @@ import casebre from "../assets/images/casebre.jpeg";
 
 export default function MainCard() {
   return (
-    <div className="relative w-full h-auto text-white">
+    <div className="relative w-full h-230 text-white">
       <div
         style={{
           backgroundImage: `url(${casebre})`,
@@ -23,9 +23,16 @@ export default function MainCard() {
           <h2 className="font-heading text-3xl text-white md:text-5xl transition-all duration-300 ease-in-out hover:opacity-80">
             Sagrado Amor
           </h2>
-          <h3 className="font-light text-xl text-white md:text-3xl mt-5 transition-all duration-300 ease-in-out hover:scale-105">
-            Pobres, Intímos da Verdade e Livres
+          <h3 className="font-accent italic text-xl text-secondary-200 md:text-3xl mt-6 transition-all duration-300 ease-in-out hover:scale-105">
+            "Dar a conhecer o Amor a todo coração pobre"
           </h3>
+          <div className="flex gap-4 justify-center mt-8 text-white/80 text-sm md:text-base font-light tracking-[0.2em] uppercase">
+            <span>Pobres</span>
+            <span className="text-secondary-500">•</span>
+            <span>Íntimos da Verdade</span>
+            <span className="text-secondary-500">•</span>
+            <span>Livres</span>
+          </div>
         </div>
       </div>
     </div>
