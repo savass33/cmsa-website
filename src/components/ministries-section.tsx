@@ -22,7 +22,7 @@ export default function MinistriesSection() {
         </FadeIn>
 
         <div className="flex flex-col gap-10 mb-16">
-          <FadeIn delay={100}>
+          <FadeIn delay={100} threshold={0}>
             <Card
               title="Música"
               image={musica}
@@ -31,7 +31,7 @@ export default function MinistriesSection() {
             />
           </FadeIn>
 
-          <FadeIn delay={200}>
+          <FadeIn delay={200} threshold={0}>
             <Card
               title="Intercessão"
               image={ostensorio}
@@ -41,7 +41,7 @@ export default function MinistriesSection() {
             />
           </FadeIn>
 
-          <FadeIn delay={300}>
+          <FadeIn delay={300} threshold={0}>
             <Card
               title="Liturgia"
               image={liturgia}
