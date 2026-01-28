@@ -26,7 +26,7 @@ export default function BastionsSection() {
             <div className="absolute -bottom-6 -left-6 w-full h-full border-2 border-primary-200 rounded-2xl z-0 hidden md:block"></div>
           </div>
           <div className="w-full md:w-1/2 text-left">
-            <h2 className="font-heading md:text-3xl mb-6">São Francisco</h2>
+            <h2 className="font-heading text-3xl md:text-4xl mb-6">São Francisco</h2>
             <p className="text-lg text-neutral-700 leading-relaxed mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               pharetra ac leo nec dignissim. Aenean vel condimentum sapien. Sed
@@ -43,10 +43,10 @@ export default function BastionsSection() {
         </div>
 
         {/* St. Therese of Lisieux */}
-        <div className="flex flex-col mb-20 md:flex-row items-center gap-12">
+        <div className="flex flex-col-reverse mb-20 md:flex-row items-center gap-12">
           {/* Text Column */}
           <div className="w-full md:w-1/2 text-left">
-            <h2 className="font-heading md:text-3xl mb-6">Santa Terezinha</h2>
+            <h2 className="font-heading text-3xl md:text-4xl mb-6">Santa Terezinha</h2>
             <p className="text-lg text-neutral-700 leading-relaxed mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               pharetra ac leo nec dignissim. Aenean vel condimentum sapien. Sed
@@ -86,7 +86,7 @@ export default function BastionsSection() {
             <div className="absolute -bottom-6 -left-6 w-full h-full border-2 border-primary-200 rounded-2xl z-0 hidden md:block"></div>
           </div>
           <div className="w-full md:w-1/2 text-left">
-            <h2 className="font-heading md:text-3xl mb-6">São João Paulo II</h2>
+            <h2 className="font-heading text-3xl md:text-4xl mb-6">São João Paulo II</h2>
             <p className="text-lg text-neutral-700 leading-relaxed mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               pharetra ac leo nec dignissim. Aenean vel condimentum sapien. Sed
@@ -103,9 +103,9 @@ export default function BastionsSection() {
         </div>
 
         {/* St Teresa of Calcutta */}
-        <div className="flex flex-col mb-20 md:flex-row items-center gap-12">
+        <div className="flex flex-col-reverse mb-20 md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2 text-left">
-            <h2 className="font-heading md:text-3xl mb-6">
+            <h2 className="font-heading text-3xl md:text-4xl mb-6">
               Santa Teresa de Calcutá
             </h2>
             <p className="text-lg text-neutral-700 leading-relaxed mb-6">
@@ -147,7 +147,7 @@ export default function BastionsSection() {
             <div className="absolute -bottom-6 -left-6 w-full h-full border-2 border-primary-200 rounded-2xl z-0 hidden md:block"></div>
           </div>
           <div className="w-full md:w-1/2 text-left">
-            <h2 className="font-heading md:text-3xl mb-6">São Padre Pio</h2>
+            <h2 className="font-heading text-3xl md:text-4xl mb-6">São Padre Pio</h2>
             <p className="text-lg text-neutral-700 leading-relaxed mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
               pharetra ac leo nec dignissim. Aenean vel condimentum sapien. Sed
