@@ -3,7 +3,6 @@ import stlisieux from "../assets/images/santateresinha.jpeg";
 import stfrancis from "../assets/images/saofrancisco.jpeg";
 import stjpii from "../assets/images/saojpii.jpeg";
 import stpio from "../assets/images/saopadrepio.jpeg";
-import foto2025 from "../assets/images/compromisso2025.jpeg";
 
 export default function BastionsSection() {
   return (
