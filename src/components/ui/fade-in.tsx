@@ -8,7 +8,7 @@ interface FadeInProps {
   threshold?: number;
 }
 
-export function FadeIn({ children, delay = 10, className = "", threshold = 0.5 }: FadeInProps) {
+export function FadeIn({ children, delay = 10, className = "", threshold = 0.1 }: FadeInProps) {
   const { ref, isInView } = useInView({ threshold });
 
   return (
