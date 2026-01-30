@@ -1,5 +1,6 @@
 import AboutCard from "../components/aboutcard";
 import BastionsSection from "../components/bastions-section";
+import CouncilSection from "../components/council-section";
 import StorySection from "../components/story-section";
 import { FadeIn } from "../components/ui/fade-in";
 
@@ -16,12 +17,15 @@ export default function About() {
         <StorySection />
       </FadeIn>
 
+      {/* Conselho */}
+      <FadeIn>
+        <CouncilSection />
+      </FadeIn>
+
       {/* Nossos baluartes */}
-      <FadeIn delay={300}>
+      <FadeIn>
         <BastionsSection />
       </FadeIn>
-      {/* Baluartes */}
-      {/* Convite pro Vocacional */}
     </div>
   );
 }
