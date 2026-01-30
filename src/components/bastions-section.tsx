@@ -8,10 +8,10 @@ export default function BastionsSection() {
   return (
     <section className="px-6 bg-neutral-50 overflow-hidden">
       <div className="max-w-6xl mx-auto">
-        <h2 className="flex justify-center text-3xl md:text-5xl font-heading text-primary-900 mb-4">
+        <h2 className="flex justify-center text-3xl md:text-5xl font-heading text-primary-900 mb-6">
           Nossos Baluartes
         </h2>
-        <div className="w-40 h-1 bg-secondary-500 rounded-full mb-10 ml-120"></div>
+        <div className="w-40 h-1 bg-secondary-500 rounded-full mb-16 mx-auto"></div>
 
         {/* St Francis */}
         <div className="flex flex-col mb-20 md:flex-row items-center gap-12">

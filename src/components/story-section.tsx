@@ -2,10 +2,9 @@ import foto2025 from "../assets/images/compromisso2025.jpeg";
 
 export default function StorySection() {
   return (
-    <section className="py-20 px-6 bg-neutral-50 overflow-hidden">
+    <section className="mt-12 px-6 bg-neutral-50 overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-12">
-          {/* Image Column */}
           <div className="w-full md:w-1/2 relative">
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
               <img
@@ -14,16 +13,14 @@ export default function StorySection() {
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
             </div>
-            {/* Decorative background element */}
             <div className="absolute -bottom-6 -left-6 w-full h-full border-2 border-primary-200 rounded-2xl z-0 hidden md:block"></div>
           </div>
 
-          {/* Text Column */}
           <div className="w-full md:w-1/2 text-left">
             <h2 className="text-3xl md:text-5xl font-heading text-primary-900 mb-6">
               Nossa História
             </h2>
-            <div className="w-20 h-1 bg-secondary-500 rounded-full mb-8"></div>
+            <div className="w-20 h-1 bg-secondary-500 rounded-full mb-16"></div>
 
             <p className="text-lg text-neutral-700 leading-relaxed mb-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
