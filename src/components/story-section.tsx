@@ -32,10 +32,10 @@ export default function StorySection() {
         </div>
         <div className="mt-10 flex flex-col gap-6">
           <p className="text-lg text-neutral-700 leading-relaxed">
-            De forma prática, nossa missão contribui para a manutenção das nossas duas casas: a Casa de Evangelização São Francisco, onde mantemos missas e adorações semanais, além dos grupos de oração; e a Casa Santa Teresa de Calcutá.
+            De forma prática, nossa missão contribui para a manutenção da nossa Casa Santa Teresa de Calcutá, onde realizamos alguns grupos de oração e também o Centro Cultural e o Grupo Olaria de Deus.
           </p>
           <p className="text-lg text-neutral-700 leading-relaxed">
-            A Casa Santa Teresa de Calcutá é a nossa casa de missão, onde, hoje, concretizamos nossa missão através da realização de reforço escolar para crianças, atendimentos de saúde, grupo infantil de oração, bazar comunitário, doações de cestas básicas, Santa Missa, entre outros. Tudo para dar a conhecer o Amor a todo coração pobre.
+            Além disso, contamos com a Capela São José, onde realizamos assembleias, missas e novenas. Tudo para dar a conhecer o Amor a todo coração pobre.
           </p>
         </div>
       </div>

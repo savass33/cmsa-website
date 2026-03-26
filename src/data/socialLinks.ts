@@ -5,13 +5,8 @@ export const socialLinks = [
     icon: "instagram", // We'll handle icons later (or no)
   },
   {
-    name: "Facebook",
-    url: "#",
-    icon: "facebook",
-  },
-  {
     name: "YouTube",
-    url: "#",
+    url: "https://www.youtube.com/@comunidademarianasagradoam9597",
     icon: "youtube",
   },
 ];
