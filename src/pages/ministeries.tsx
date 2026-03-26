@@ -4,10 +4,11 @@ import { FadeIn } from "../components/ui/fade-in";
 import { Button } from "../components/ui/button";
 import { Modal } from "../components/ui/modal";
 
-import musica from "../assets/images/musica.jpeg";
-import ostensorio from "../assets/images/ostensorio.jpg";
-import liturgia from "../assets/images/liturgia.jpg";
-import saoJoaoPaulo from "../assets/images/saojpii.jpeg";
+import musica from "../assets/images/min_musica.jpeg";
+import ostensorio from "../assets/images/ostensorio.jpg"; // Keep for hero
+import liturgia from "../assets/images/liturgia.jpeg";
+import palavra from "../assets/images/palavra.jpeg";
+import intercessao from "../assets/images/intercessao.jpeg";
 
 interface Ministry {
   title: string;
@@ -40,7 +41,7 @@ export default function Ministeries() {
     },
     {
       title: "Intercessão",
-      image: ostensorio,
+      image: intercessao,
       description:
         "Colocar-se na brecha pelos irmãos e pela Igreja. Como sentinelas do Senhor, nossos intercessores clamam incessantemente diante do Santíssimo Sacramento, sustentando espiritualmente toda a obra e missão da comunidade.",
       details: {
@@ -66,7 +67,7 @@ export default function Ministeries() {
     },
     {
       title: "Palavra e Anúncio",
-      image: saoJoaoPaulo,
+      image: palavra,
       description:
         "Proclamar a Boa Nova, sendo a voz de Cristo no deserto do mundo. Levamos a luz das Sagradas Escrituras aos corações sedentos, através da meditação, do estudo e da pregação fiel ao Magistério.",
       details: {

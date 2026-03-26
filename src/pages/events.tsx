@@ -4,12 +4,12 @@ import { FadeIn } from "../components/ui/fade-in";
 import { Button } from "../components/ui/button";
 import { Modal } from "../components/ui/modal";
 
-import casebre from "../assets/images/casebre.jpeg";
-import santaTeresinha from "../assets/images/santateresinha.jpeg";
+import aguaviva from "../assets/images/aguaviva.jpeg";
+import sopro from "../assets/images/sopro.jpeg";
 import santaTeresa from "../assets/images/santateresacalcuta.jpeg";
-import saoPadrePio from "../assets/images/saopadrepio.jpeg";
-import saoFrancisco from "../assets/images/saofrancisco.jpeg";
-import compromisso from "../assets/images/compromisso2025.jpeg";
+import comunicacao from "../assets/images/comunicacao.jpeg";
+import olaria from "../assets/images/olaria.jpeg";
+import vocacional from "../assets/images/vocacional.jpeg";
 import taus from "../assets/images/taus.jpeg";
 
 interface EventGroup {
@@ -30,7 +30,7 @@ export default function Event() {
   const groups: EventGroup[] = [
     {
       title: "Água Viva",
-      image: casebre,
+      image: aguaviva,
       description:
         "Nosso grupo de jovens! Um espaço vibrante de oração onde mergulhamos nas águas profundas do Espírito Santo. Um tempo para louvar, agradecer e experimentar o amor renovador de Deus em comunidade.",
       details: {
@@ -43,7 +43,7 @@ export default function Event() {
     },
     {
       title: "Sopro de Vida",
-      image: santaTeresinha,
+      image: sopro,
       description:
         "Nosso grupo de adultos voltado para a cura e restauração interior. Como a brisa suave, permitimos que o Espírito de Deus sopre sobre nossas feridas e nos traga a verdadeira paz e liberdade.",
       details: {
@@ -69,7 +69,7 @@ export default function Event() {
     },
     {
       title: "Centro Cultural",
-      image: saoPadrePio,
+      image: comunicacao,
       description:
         "Um espaço de evangelização através das artes e da cultura cristã. Promovemos o belo, o bom e o verdadeiro por meio de teatro, música, literatura e estudos de aprofundamento.",
       details: {
@@ -82,7 +82,7 @@ export default function Event() {
     },
     {
       title: "Grupo Olaria de Deus",
-      image: saoFrancisco,
+      image: olaria,
       description:
         "Grupo voltado para a evangelização e formação das crianças da Comunidade Aldaci Barbosa. Como o barro nas mãos do oleiro, ajudamos a moldar os pequenos corações com a Palavra de Deus.",
       details: {
@@ -95,7 +95,7 @@ export default function Event() {
     },
     {
       title: "Vocacional",
-      image: compromisso,
+      image: vocacional,
       description:
         "Caminho de discernimento para aqueles que sentem o chamado a fazer parte da nossa comunidade. Um tempo de escuta, oração e conhecimento do nosso carisma.",
       details: {
