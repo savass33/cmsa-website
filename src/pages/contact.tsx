@@ -9,38 +9,41 @@ export default function Contact() {
   const whatsappUrl = "https://api.whatsapp.com/send?phone=5585998087212&text=Ol%C3%A1!%20Vim%20pela%20p%C3%A1gina%20da%20Sagrado%20Amor%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20Comunidade!";
 
   return (
-    <div className="flex flex-col w-full mb-20 bg-neutral-50 min-h-screen">
-      {/* Hero Section */}
+    <div className="flex flex-col w-full mb-20">
+      {/* Cape / Hero Section */}
       <FadeIn>
-        <div className="relative w-full h-50 md:h-64">
+        <div className="relative w-full h-48 md:h-64">
           <div
             style={{ backgroundImage: `url(${santaTeresinha})` }}
-            className="absolute inset-0 bg-blend-multiply brightness-70 bg-primary-600 bg-cover bg-center"
+            className="absolute inset-0 bg-blend-multiply brightness-70 bg-primary-500 bg-cover bg-center"
           ></div>
           <div className="relative h-full flex items-center justify-center">
-            <h1 className="font-heading p-15 text-5xl text-white md:text-7xl transition-all duration-300 ease-in-out hover:opacity-80">
+            <h1 className="font-heading px-6 text-4xl md:text-7xl text-white transition-all duration-300 ease-in-out hover:opacity-80">
               Contato
             </h1>
           </div>
         </div>
       </FadeIn>
 
-      {/* Main Content */}
-      <section className="px-6 mt-16 max-w-6xl mx-auto w-full">
-        <div className="text-center mb-16">
+      {/* Introdução */}
+      <section className="px-6 mt-12">
+        <div className="max-w-5xl mx-auto text-center">
           <FadeIn delay={200}>
-            <h2 className="text-3xl md:text-5xl font-heading text-primary-900 mb-6">
-              Fale Conosco
-            </h2>
-            <div className="w-24 h-1 bg-secondary-500 rounded-full mx-auto mb-8"></div>
-            <p className="text-lg text-neutral-600 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-neutral-600 max-w-3xl mx-auto font-body leading-relaxed font-light italic mb-6">
+              "Vinde a mim, todos os que estais cansados e sob o peso do vosso fardo e eu vos darei descanso." (Mateus 11,28)
+            </p>
+            <p className="text-lg text-neutral-700 max-w-3xl mx-auto font-body leading-relaxed">
               Tem alguma dúvida, pedido de oração ou quer conhecer mais sobre a nossa Comunidade? 
               Sinta-se à vontade para nos enviar uma mensagem. Estamos de braços abertos para acolher você!
             </p>
+            <div className="w-20 h-1 bg-secondary-500 mx-auto rounded-full mt-8"></div>
           </FadeIn>
         </div>
+      </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* Main Content */}
+      <section className="px-6 mt-16 relative z-10">
+        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* WhatsApp Card */}
           <FadeIn delay={300} className="h-full">
             <div className="bg-white p-8 rounded-3xl shadow-sm border border-neutral-100 flex flex-col items-center text-center h-full transition-transform hover:-translate-y-2 duration-300">
@@ -49,7 +52,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-heading text-primary-900 mb-3">WhatsApp</h3>
               <p className="text-neutral-600 mb-6 flex-grow">
-                Envie uma mensagem direta para nós. Responderemos o mais rápido possível.
+                Envie uma mensagem direta para o <strong>Marco Túlio</strong>. Responderemos o mais rápido possível.
               </p>
               <p className="font-semibold text-primary-800 mb-6 text-lg">
                 (85) 99808-7212
@@ -113,7 +116,7 @@ export default function Contact() {
         </div>
 
         {/* Social Media Section */}
-        <FadeIn delay={600} className="mt-16 bg-white p-10 rounded-3xl shadow-sm border border-neutral-100 text-center">
+        <FadeIn delay={600} className="mt-16 bg-white p-10 rounded-3xl shadow-sm border border-neutral-100 text-center max-w-5xl mx-auto">
           <h3 className="text-2xl font-heading text-primary-900 mb-4">Redes Sociais</h3>
           <p className="text-neutral-600 mb-8 max-w-xl mx-auto">
             Acompanhe nosso dia a dia, formações, eventos e momentos de oração através das nossas redes sociais.
