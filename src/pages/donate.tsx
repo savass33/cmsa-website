@@ -66,7 +66,7 @@ export default function Donate() {
               Todo valor arrecadado é distribuído para manutenção daquilo que Deus nos pede para concretizarmos: dar a conhecer o Amor a todo coração pobre.
             </p>
             <p className="text-neutral-700 text-lg leading-relaxed mt-4">
-              De forma prática, sua ajuda contribuirá para a manutenção da nossa casa, <strong>A Casa Santa Teresa de Calcutá</strong>, a qual é a nossa casa de missão e evangelização, onde, hoje, realizamos oficina de música para crianças, grupo infantil e adulto de oração, bazar comunitário, Santa Missa, entre outros.
+              De forma prática, sua ajuda contribuirá para a manutenção da nossa <strong>Casa Santa Teresa de Calcutá</strong>, que é a nossa casa de missão, onde realizamos alguns grupos de oração, o Centro Cultural e o Grupo Olaria de Deus. Além disso, contamos com a <strong>Capela São José</strong>, onde realizamos assembleias, missas e novenas.
             </p>
           </div>
         </FadeIn>

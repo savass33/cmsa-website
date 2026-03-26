@@ -74,7 +74,7 @@ export default function Event() {
         "Um espaço de evangelização através das artes e da cultura cristã. Promovemos o belo, o bom e o verdadeiro por meio de teatro, música, literatura e estudos de aprofundamento.",
       details: {
         schedule: "Segundas, Quartas e Sextas, das 18h30 às 20h30",
-        location: "Casa Santa Tereza (Vila Dália, 5)",
+        location: "Casa Santa Teresa de Calcutá (Vila Dália, 5)",
         coordinator: "A definir",
         fullDescription:
           "Acreditamos que a beleza é um caminho que conduz a Deus. O Centro Cultural reúne crianças, jovens e adultos para explorar a riqueza da tradição católica através de diversas expressões artísticas e intelectuais. Oferecemos oficinas de teatro, clube do livro, ciclos de palestras e exposições, visando a formação integral do ser humano e a transformação da cultura.",
@@ -87,7 +87,7 @@ export default function Event() {
         "Grupo voltado para a evangelização e formação das crianças da Comunidade Aldaci Barbosa. Como o barro nas mãos do oleiro, ajudamos a moldar os pequenos corações com a Palavra de Deus.",
       details: {
         schedule: "Todos os sábados, das 09h00 às 11h00",
-        location: "Casa Santa Tereza (Vila Dália, 5)",
+        location: "Casa Santa Teresa de Calcutá (Vila Dália, 5)",
         coordinator: "A definir",
         fullDescription:
           "Assim como o oleiro trabalha o vaso no torno (Jeremias 18), o Grupo Olaria de Deus é um ambiente de discipulado e formação dedicado às crianças da Comunidade Aldaci Barbosa. Através de atividades lúdicas, momentos de oração e ensino catequético, buscamos plantar a semente da fé desde cedo, ajudando as crianças a crescerem no amor a Deus, ao próximo e à Igreja.",
@@ -99,8 +99,8 @@ export default function Event() {
       description:
         "Caminho de discernimento para aqueles que sentem o chamado a fazer parte da nossa comunidade. Um tempo de escuta, oração e conhecimento do nosso carisma.",
       details: {
-        schedule: "A definir",
-        location: "A definir",
+        schedule: "Quinzenalmente às terças-feiras, das 19h30 às 21h00",
+        location: "Salas da Igreja de Fátima",
         coordinator: "Equipe Vocacional",
         fullDescription:
           "O Caminho Vocacional é oferecido anualmente para todos que desejam conhecer profundamente a Comunidade Mariana Sagrado Amor e que sentem o apelo de Deus para viver o nosso carisma. Durante os encontros, abordamos os nossos pilares, baluartes e regras de vida. É um período de intenso discernimento espiritual para responder com liberdade e amor à voz do Senhor.",
