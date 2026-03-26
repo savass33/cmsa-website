@@ -9,18 +9,15 @@ export default function Charism() {
     <div className="flex flex-col w-full mb-20">
       {/* Hero Section */}
       <FadeIn>
-        <div className="relative w-full h-80 md:h-[500px]">
+        <div className="relative w-full h-50">
           <div
             style={{ backgroundImage: `url(${compromisso})` }}
-            className="absolute inset-0 bg-blend-multiply brightness-50 bg-primary-500 bg-cover bg-center"
+            className="absolute inset-0 bg-blend-multiply brightness-70 bg-primary-500 bg-cover bg-center"
           ></div>
-          <div className="relative h-full flex flex-col items-center justify-center text-center px-6">
-            <h1 className="font-heading text-4xl text-white md:text-7xl mb-4 transition-all duration-300 ease-in-out">
+          <div className="relative h-full flex items-center justify-center">
+            <h1 className="font-heading p-15 text-5xl text-white md:text-7xl transition-all duration-300 ease-in-out hover:opacity-80">
               Nosso Carisma
             </h1>
-            <p className="text-xl md:text-3xl text-primary-100 font-accent italic max-w-4xl mx-auto">
-              "Dar a conhecer o Amor a todo coração pobre."
-            </p>
           </div>
         </div>
       </FadeIn>
@@ -29,6 +26,9 @@ export default function Charism() {
       <section className="px-6 mt-16">
         <div className="max-w-4xl mx-auto text-center">
           <FadeIn delay={200}>
+            <p className="text-xl md:text-3xl text-primary-900 font-accent italic max-w-4xl mx-auto mb-8">
+              "Dar a conhecer o Amor a todo coração pobre."
+            </p>
             <p className="text-lg text-neutral-700 font-body leading-relaxed mb-8">
               O carisma de uma comunidade é o dom específico dado pelo Espírito
               Santo para a edificação da Igreja e salvação das almas. O nosso

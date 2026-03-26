@@ -4,6 +4,8 @@ import { Button } from "../components/ui/button";
 import { MdContentCopy, MdCheckCircle, MdPix } from "react-icons/md";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
+import liturgia from "../assets/images/liturgia.jpg";
+
 export default function Donate() {
   const [copied, setCopied] = useState(false);
   const pixKey = "comunidadesagradoamor@gmail.com";
@@ -17,16 +19,30 @@ export default function Donate() {
   return (
     <div className="flex flex-col w-full min-h-screen bg-neutral-50">
       {/* Header Section */}
-      <section className="relative pt-24 pb-16 px-6 bg-primary-900 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-20 bg-[url('/path-to-texture.png')] bg-cover mix-blend-overlay"></div>
-        <div className="max-w-4xl mx-auto relative z-10 text-center">
-          <FadeIn>
-            <h1 className="text-4xl md:text-6xl font-heading mb-6">
-              Benfeitoria <span className="block text-secondary-500 mt-2">Simplesmente Amar</span>
+      <FadeIn>
+        <div className="relative w-full h-50">
+          <div
+            style={{ backgroundImage: `url(${liturgia})` }}
+            className="absolute inset-0 bg-blend-multiply brightness-70 bg-primary-500 bg-cover bg-center"
+          ></div>
+          <div className="relative h-full flex items-center justify-center">
+            <h1 className="font-heading text-center p-15 text-5xl text-white md:text-7xl transition-all duration-300 ease-in-out hover:opacity-80">
+              Benfeitoria
             </h1>
-            <p className="text-lg md:text-xl text-neutral-200 max-w-2xl mx-auto">
+          </div>
+        </div>
+      </FadeIn>
+
+      <section className="px-6 mt-12">
+        <div className="max-w-5xl mx-auto text-center">
+          <FadeIn delay={200}>
+            <p className="text-lg md:text-xl text-neutral-600 max-w-3xl mx-auto font-body leading-relaxed font-light italic mb-6">
+              "Simplesmente Amar"
+            </p>
+            <p className="text-lg text-neutral-700 max-w-3xl mx-auto font-body leading-relaxed">
               Sua doação nos ajuda a manter nossas casas de missão e a levar o Amor aos corações que mais necessitam.
             </p>
+            <div className="w-20 h-1 bg-secondary-500 mx-auto rounded-full mt-8"></div>
           </FadeIn>
         </div>
       </section>
