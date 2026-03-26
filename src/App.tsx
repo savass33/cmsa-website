@@ -8,10 +8,12 @@ import Donate from "./pages/donate";
 import Contact from "./pages/contact";
 import Ministeries from "./pages/ministeries";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/scroll-to-top";
 
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <MainLayout>
         <Routes>
           <Route path="/" element={<Home />} />
