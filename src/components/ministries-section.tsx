@@ -2,9 +2,9 @@ import { useNavigate } from "react-router-dom";
 import Card from "./card";
 import { Button } from "./ui/button";
 import { FadeIn } from "./ui/fade-in";
-import intercessao from "../assets/images/intercessao.jpeg";
-import musica from "../assets/images/min_musica.jpeg";
-import liturgia from "../assets/images/liturgia.jpeg";
+import intercessao from "../assets/images/ostensorio.jpg";
+import musica from "../assets/images/musica.jpeg";
+import liturgia from "../assets/images/liturgia.jpg";
 
 export default function MinistriesSection() {
   const navigate = useNavigate();

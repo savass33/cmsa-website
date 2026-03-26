@@ -37,7 +37,7 @@ export default function CouncilSection() {
         <div className="flex flex-col md:flex-row justify-center items-stretch gap-12 md:gap-16">
           {councilMembers.map((member, index) => (
             <FadeIn key={index} delay={index * 200} className="flex-1 max-w-lg">
-              <div className="group h-full relative bg-white rounded-3xl p-10 shadow-sm border border-neutral-100">
+              <div className="group h-full relative bg-white rounded-3xl p-8 md:p-10 shadow-sm border border-neutral-100">
                 <div className="w-full aspect-square mb-10 relative overflow-hidden rounded-2xl">
                   <img
                     src={member.image}
