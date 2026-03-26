@@ -95,14 +95,17 @@ export default function Donate() {
             </div>
 
             <div className="w-full border-t border-neutral-100 pt-8 mt-4 flex flex-col items-center gap-4">
-              <h4 className="text-sm font-bold tracking-widest text-secondary-600 uppercase">Contato & Dúvidas</h4>
+              <h4 className="text-sm font-bold tracking-widest text-secondary-600 uppercase">Seja nosso benfeitor</h4>
               
-              <a href="https://wa.me/5585996635083" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-neutral-700 hover:text-primary-600 transition-colors">
-                <FaWhatsapp size={24} className="text-green-500" />
-                <span className="text-lg font-medium">(85) 99663-5083</span>
+              <a href="https://wa.me/558597999027" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 text-neutral-700 hover:text-primary-600 transition-colors">
+                <div className="flex items-center gap-3">
+                  <FaWhatsapp size={24} className="text-green-500" />
+                  <span className="text-lg font-medium">(85) 9799-9027</span>
+                </div>
+                <span className="text-sm font-medium text-neutral-500 italic">Ana Júlia de Deus</span>
               </a>
 
-              <a href="https://instagram.com/com.sagradoamor" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-neutral-700 hover:text-primary-600 transition-colors">
+              <a href="https://instagram.com/com.sagradoamor" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-neutral-700 hover:text-primary-600 transition-colors mt-2">
                 <FaInstagram size={24} className="text-pink-600" />
                 <span className="text-lg font-medium">@com.sagradoamor</span>
               </a>
