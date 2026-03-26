@@ -7,7 +7,7 @@ import { Modal } from "../components/ui/modal";
 import aguaviva from "../assets/images/aguaviva.jpeg";
 import sopro from "../assets/images/sopro.jpeg";
 import santaTeresa from "../assets/images/santateresacalcuta.jpeg";
-import comunicacao from "../assets/images/comunicacao.jpeg";
+import casebre from "../assets/images/casebre.jpeg";
 import olaria from "../assets/images/olaria.jpeg";
 import vocacional from "../assets/images/vocacional.jpeg";
 import taus from "../assets/images/taus.jpeg";
@@ -69,7 +69,7 @@ export default function Event() {
     },
     {
       title: "Centro Cultural",
-      image: comunicacao,
+      image: casebre,
       description:
         "Um espaço de evangelização através das artes e da cultura cristã. Promovemos o belo, o bom e o verdadeiro por meio de teatro, música, literatura e estudos de aprofundamento.",
       details: {
