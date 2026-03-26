@@ -9,6 +9,7 @@ import ostensorio from "../assets/images/ostensorio.jpg"; // Keep for hero
 import liturgia from "../assets/images/liturgia.jpeg";
 import palavra from "../assets/images/palavra.jpeg";
 import intercessao from "../assets/images/intercessao.jpeg";
+import comunicacao from "../assets/images/comunicacao.jpeg";
 
 interface Ministry {
   title: string;
@@ -27,7 +28,7 @@ export default function Ministeries() {
 
   const ministries: Ministry[] = [
     {
-      title: "Música Sagrada",
+      title: "Música",
       image: musica,
       description:
         "Elevar as almas a Deus através de melodias consagradas. O Ministério de Música é o sopro do Espírito que, pelas vozes e instrumentos, prepara o coração da comunidade para o encontro profundo com o Cristo Vivo.",
@@ -76,6 +77,19 @@ export default function Ministeries() {
         coordinator: "A definir",
         fullDescription:
           "'Ignorar as Escrituras é ignorar o próprio Cristo' (São Jerônimo). O Ministério da Palavra se debruça sobre a Revelação divina para nutrir a própria alma e, transbordando dessa graça, instruir a comunidade. Cuidamos da formação catequética, dos grupos de leitura orante (Lectio Divina) e da difusão do Evangelho.",
+      },
+    },
+    {
+      title: "Comunicação",
+      image: comunicacao,
+      description:
+        "Anunciar a beleza do Sagrado Amor através das redes e mídias. O Ministério de Comunicação é a janela pela qual o mundo contempla nossa missão, tornando-se uma ponte digital para o encontro com Cristo.",
+      details: {
+        schedule: "Reuniões Mensais",
+        location: "Híbrido",
+        coordinator: "A definir",
+        fullDescription:
+          "Na era digital, somos chamados a ser missionários do continente digital. O Ministério de Comunicação cuida da identidade visual, redes sociais, fotografia e transmissão das atividades da comunidade. Nosso objetivo é comunicar não apenas eventos, mas o próprio Amor que nos move, utilizando a tecnologia como ferramenta de evangelização e unidade.",
       },
     },
   ];
