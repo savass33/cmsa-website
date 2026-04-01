@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 import { FadeIn } from "./ui/fade-in";
 import intercessao from "../assets/images/ostensorio.jpg";
 import musica from "../assets/images/musica.jpeg";
-import liturgia from "../assets/images/liturgia.jpg";
+import liturgia from "../assets/images/interofc.jpeg";
 
 export default function MinistriesSection() {
   const navigate = useNavigate();

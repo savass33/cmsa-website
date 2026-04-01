@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 import Card from "../components/card";
 import { FadeIn } from "../components/ui/fade-in";
 import { Button } from "../components/ui/button";
@@ -6,8 +7,8 @@ import { Modal } from "../components/ui/modal";
 
 import aguaviva from "../assets/images/aguaviva.jpeg";
 import sopro from "../assets/images/sopro.jpeg";
-import santaTeresa from "../assets/images/santateresacalcuta.jpeg";
-import casebre from "../assets/images/casebre.jpeg";
+import tenhoSede from "../assets/images/tenhoSede.jpeg";
+import centroCultural from "../assets/images/centroCultural.jpeg";
 import olaria from "../assets/images/olaria.jpeg";
 import vocacional from "../assets/images/vocacional.jpeg";
 import taus from "../assets/images/taus.jpeg";
@@ -20,6 +21,7 @@ interface EventGroup {
     schedule: string;
     location: string;
     coordinator: string;
+    phone: string;
     fullDescription: string;
   };
 }
@@ -36,7 +38,8 @@ export default function Event() {
       details: {
         schedule: "Todos os domingos, das 16h30 às 18h30",
         location: "Sala 2 da Igreja de Fátima",
-        coordinator: "A definir",
+        coordinator: "Victor Moreira - (85) 98847-2704",
+        phone: "5585988472704",
         fullDescription:
           "O Água Viva é o nosso encontro de jovens para celebrar a vida e a fé. Através de cantos de louvor, dinâmicas, pregações inspiradoras e momentos de oração profunda, buscamos a efusão do Espírito Santo. É um espaço aberto para todos os jovens que desejam ter um encontro pessoal com Jesus e reavivar a chama da fé, bebendo da fonte inesgotável da graça divina.",
       },
@@ -48,34 +51,37 @@ export default function Event() {
         "Nosso grupo de adultos voltado para a cura e restauração interior. Como a brisa suave, permitimos que o Espírito de Deus sopre sobre nossas feridas e nos traga a verdadeira paz e liberdade.",
       details: {
         schedule: "Todas as terças-feiras, das 19h30 às 21h00",
-        location: "Salas da Igreja de Fátima",
-        coordinator: "A definir",
+        location: "Sala 3 da Igreja de Fátima",
+        coordinator: "Luís Eduardo - (85) 99409-5071",
+        phone: "5585994095071",
         fullDescription:
           "Inspirados no sopro vital de Deus sobre a criação, este grupo é destinado a adultos que buscam a oração por cura interior e libertação. Em um ambiente de extremo acolhimento, partilha fraterna e escuta, os participantes são convidados a entregar suas angústias e dores ao Senhor. Acreditamos que o mesmo Espírito que ressuscitou Cristo dos mortos pode dar vida nova aos corações machucados.",
       },
     },
     {
       title: "Tenho Sede",
-      image: santaTeresa,
+      image: tenhoSede,
       description:
         "Grupo de oração e partilha voltado especialmente para os moradores da comunidade Aldaci Barbosa. Um espaço para reavivar a fé e promover a caridade e a fraternidade.",
       details: {
         schedule: "Todas as terças-feiras, das 19h00 às 20h00",
         location: "Capela São José (Vila Dália, 5) - Comunidade Aldaci Barbosa",
-        coordinator: "A definir",
+        coordinator: "Amanda - (85) 98504-3353",
+        phone: "5585985043353",
         fullDescription:
           "Respondendo ao grito de Jesus na cruz: 'Tenho sede', este grupo de oração se reúne para partilhar a Palavra de Deus e promover a fé junto aos moradores da comunidade Aldaci Barbosa. Inspirados pelos exemplos dos santos, unimos a espiritualidade contemplativa ao acolhimento fraterno, buscando saciar a sede de Cristo presente em nossos irmãos através do amor e da caridade prática.",
       },
     },
     {
       title: "Centro Cultural",
-      image: casebre,
+      image: centroCultural,
       description:
         "Um espaço de evangelização através das artes e da cultura cristã. Promovemos o belo, o bom e o verdadeiro por meio de teatro, música, literatura e estudos de aprofundamento.",
       details: {
         schedule: "Segundas, Quartas e Sextas, das 18h30 às 20h30",
         location: "Casa Santa Teresa de Calcutá (Vila Dália, 5)",
-        coordinator: "A definir",
+        coordinator: "Layssa - (85) 98771-2680",
+        phone: "5585987712680",
         fullDescription:
           "Acreditamos que a beleza é um caminho que conduz a Deus. O Centro Cultural reúne crianças, jovens e adultos para explorar a riqueza da tradição católica através de diversas expressões artísticas e intelectuais. Oferecemos oficinas de teatro, clube do livro, ciclos de palestras e exposições, visando a formação integral do ser humano e a transformação da cultura.",
       },
@@ -88,7 +94,8 @@ export default function Event() {
       details: {
         schedule: "Todos os sábados, das 09h00 às 11h00",
         location: "Casa Santa Teresa de Calcutá (Vila Dália, 5)",
-        coordinator: "A definir",
+        coordinator: "Maria de Lourdes - (85) 98945-9569",
+        phone: "5585989459569",
         fullDescription:
           "Assim como o oleiro trabalha o vaso no torno (Jeremias 18), o Grupo Olaria de Deus é um ambiente de discipulado e formação dedicado às crianças da Comunidade Aldaci Barbosa. Através de atividades lúdicas, momentos de oração e ensino catequético, buscamos plantar a semente da fé desde cedo, ajudando as crianças a crescerem no amor a Deus, ao próximo e à Igreja.",
       },
@@ -101,7 +108,8 @@ export default function Event() {
       details: {
         schedule: "Quinzenalmente às terças-feiras, das 19h30 às 21h00",
         location: "Salas da Igreja de Fátima",
-        coordinator: "Equipe Vocacional",
+        coordinator: "Guilherme Brasil - (85) 98675-1464",
+        phone: "5585986751464",
         fullDescription:
           "O Caminho Vocacional é oferecido anualmente para todos que desejam conhecer profundamente a Comunidade Mariana Sagrado Amor e que sentem o apelo de Deus para viver o nosso carisma. Durante os encontros, abordamos os nossos pilares, baluartes e regras de vida. É um período de intenso discernimento espiritual para responder com liberdade e amor à voz do Senhor.",
       },
@@ -130,10 +138,12 @@ export default function Event() {
         <div className="max-w-5xl mx-auto text-center">
           <FadeIn delay={200}>
             <p className="text-lg md:text-xl text-neutral-600 max-w-3xl mx-auto font-body leading-relaxed font-light italic mb-6">
-              "Onde dois ou três estão reunidos em meu nome, aí estou eu no meio deles." (Mateus 18,20).
+              "Onde dois ou três estão reunidos em meu nome, aí estou eu no meio
+              deles." (Mateus 18,20).
             </p>
             <p className="text-lg text-neutral-700 max-w-3xl mx-auto font-body leading-relaxed">
-              Nossos grupos abertos são espaços de acolhimento, oração, formação e convivência fraterna. Venha participar e crescer na fé conosco!
+              Nossos grupos abertos são espaços de acolhimento, oração, formação
+              e convivência fraterna. Venha participar e crescer na fé conosco!
             </p>
             <div className="w-20 h-1 bg-secondary-500 mx-auto rounded-full mt-8"></div>
           </FadeIn>
@@ -182,21 +192,48 @@ export default function Event() {
 
             <div className="bg-neutral-50 p-4 rounded-lg border border-neutral-100 space-y-3">
               <div className="flex items-start gap-3">
-                <span className="font-semibold text-primary-800 min-w-[80px]">Horários:</span>
-                <span className="text-neutral-600">{selectedGroup.details.schedule}</span>
+                <span className="font-semibold text-primary-800 min-w-[80px]">
+                  Horários:
+                </span>
+                <span className="text-neutral-600">
+                  {selectedGroup.details.schedule}
+                </span>
               </div>
               <div className="flex items-start gap-3">
-                <span className="font-semibold text-primary-800 min-w-[80px]">Local:</span>
-                <span className="text-neutral-600">{selectedGroup.details.location}</span>
+                <span className="font-semibold text-primary-800 min-w-[80px]">
+                  Local:
+                </span>
+                <span className="text-neutral-600">
+                  {selectedGroup.details.location}
+                </span>
               </div>
               <div className="flex items-start gap-3">
-                <span className="font-semibold text-primary-800 min-w-[80px]">Contato:</span>
-                <span className="text-neutral-600">{selectedGroup.details.coordinator}</span>
+                <span className="font-semibold text-primary-800 min-w-[80px]">
+                  Contato:
+                </span>
+                <div className="text-neutral-600 flex flex-col items-start gap-1">
+                  <span>{selectedGroup.details.coordinator}</span>
+                  <a
+                    href={`https://wa.me/${
+                      selectedGroup.details.phone
+                    }?text=${encodeURIComponent(
+                      `Olá, gostaria de saber mais sobre o ${selectedGroup.title}!`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sm text-green-600 hover:text-green-700 font-medium mt-1 transition-colors"
+                  >
+                    <FaWhatsapp className="text-lg" />
+                    Falar no WhatsApp
+                  </a>
+                </div>
               </div>
             </div>
 
             <div className="mt-2">
-              <h4 className="text-lg font-heading text-primary-900 mb-2">Sobre o Grupo</h4>
+              <h4 className="text-lg font-heading text-primary-900 mb-2">
+                Sobre o Grupo
+              </h4>
               <p className="text-sm leading-relaxed text-neutral-600 text-justify">
                 {selectedGroup.details.fullDescription}
               </p>
