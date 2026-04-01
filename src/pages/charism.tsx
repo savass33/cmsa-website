@@ -1,8 +1,8 @@
 import { FadeIn } from "../components/ui/fade-in";
 import compromisso from "../assets/images/compromisso2025.jpeg";
-import ostensorio from "../assets/images/ostensorio.jpg";
-import santaTeresa from "../assets/images/santateresacalcuta.jpeg";
-import saoFrancisco from "../assets/images/saofrancisco.jpeg";
+import quadra2 from "../assets/images/quadra2.jpeg";
+import pintura from "../assets/images/pintura2.jpeg";
+import procissao from "../assets/images/procissao.jpeg";
 
 export default function Charism() {
   return (
@@ -33,7 +33,8 @@ export default function Charism() {
               O carisma de uma comunidade é o dom específico dado pelo Espírito
               Santo para a edificação da Igreja e salvação das almas. O nosso
               carisma não é apenas uma frase bonita, mas uma forma de enxergar o
-              mundo, de rezar, de agir e de viver o Evangelho na sua radicalidade.
+              mundo, de rezar, de agir e de viver o Evangelho na sua
+              radicalidade.
             </p>
             <div className="w-20 h-1 bg-secondary-500 mx-auto rounded-full mb-16"></div>
           </FadeIn>
@@ -47,9 +48,13 @@ export default function Charism() {
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="w-full md:w-1/3 flex justify-center order-first md:order-last">
                 <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-primary-900 flex flex-col items-center justify-center border-4 border-secondary-500 shadow-xl p-6 text-center">
-                  <span className="text-2xl md:text-3xl text-secondary-400 font-accent italic mb-3 leading-tight">"Dá-me de beber"</span>
+                  <span className="text-2xl md:text-3xl text-secondary-400 font-accent italic mb-3 leading-tight">
+                    "Dá-me de beber"
+                  </span>
                   <div className="w-12 h-1 bg-secondary-500 mb-3 rounded-full"></div>
-                  <span className="text-base text-primary-100 font-medium">João 4, 7</span>
+                  <span className="text-base text-primary-100 font-medium">
+                    João 4, 7
+                  </span>
                 </div>
               </div>
               <div className="w-full md:w-2/3 text-left">
@@ -58,16 +63,44 @@ export default function Charism() {
                 </h2>
                 <div className="space-y-4">
                   <p className="text-lg text-neutral-700 leading-relaxed">
-                    O <strong>Mistério Cristológico</strong> é o evento da vida de Jesus no qual uma comunidade funda a sua espiritualidade. Para nós, este mistério encontra-se no capítulo 4 do Evangelho de São João: <strong>o encontro de Jesus com a mulher samaritana no poço de Jacó</strong>.
+                    O <strong>Mistério Cristológico</strong> é o evento da vida
+                    de Jesus no qual uma comunidade funda a sua espiritualidade.
+                    Para nós, este mistério encontra-se no capítulo 4 do
+                    Evangelho de São João:{" "}
+                    <strong>
+                      o encontro de Jesus com a mulher samaritana no poço de
+                      Jacó
+                    </strong>
+                    .
                   </p>
                   <p className="text-lg text-neutral-700 leading-relaxed">
-                    Jesus, o próprio Deus encarnado, faz-se necessitado e cansado da caminhada. Ele se senta à beira do poço e pede água a uma mulher marginalizada, de coração ferido por sucessivas desilusões afetivas, sedenta de um sentido real para sua existência. Ao dizer <em>"Dá-me de beber"</em>, Cristo não revela apenas uma sede física, mas a Sua infinita <strong>sede de almas</strong>. Ele tem sede de que nós tenhamos sede d'Ele.
+                    Jesus, o próprio Deus encarnado, faz-se necessitado e
+                    cansado da caminhada. Ele se senta à beira do poço e pede
+                    água a uma mulher marginalizada, de coração ferido por
+                    sucessivas desilusões afetivas, sedenta de um sentido real
+                    para sua existência. Ao dizer <em>"Dá-me de beber"</em>,
+                    Cristo não revela apenas uma sede física, mas a Sua infinita{" "}
+                    <strong>sede de almas</strong>. Ele tem sede de que nós
+                    tenhamos sede d'Ele.
                   </p>
                   <p className="text-lg text-neutral-700 leading-relaxed">
-                    A samaritana é o retrato fiel do <strong>coração pobre</strong>: aquela que busca nos poços deste mundo a água que nunca sacia. Jesus se aproxima não com condenação, mas com a oferta da Água Viva: o Espírito Santo, o próprio <strong>Amor</strong>. No momento em que ela descobre quem Ele é, o encontro transforma sua vida. 
+                    A samaritana é o retrato fiel do{" "}
+                    <strong>coração pobre</strong>: aquela que busca nos poços
+                    deste mundo a água que nunca sacia. Jesus se aproxima não
+                    com condenação, mas com a oferta da Água Viva: o Espírito
+                    Santo, o próprio <strong>Amor</strong>. No momento em que
+                    ela descobre quem Ele é, o encontro transforma sua vida.
                   </p>
                   <p className="text-lg text-neutral-700 leading-relaxed">
-                    O ápice deste mistério na nossa vocação ocorre quando a mulher, agora transformada e transbordando a Água Viva, <strong>deixa o seu cântaro para trás</strong> — abandona suas velhas seguranças e pecados — e corre para a cidade. Ela torna-se missionária, dizendo aos outros: <em>"Vinde ver!"</em>. É este o movimento do nosso carisma: deixar Jesus saciar a nossa sede para, em seguida, corrermos ao encontro dos outros corações pobres, <strong>dando-O a conhecer</strong>.
+                    O ápice deste mistério na nossa vocação ocorre quando a
+                    mulher, agora transformada e transbordando a Água Viva,{" "}
+                    <strong>deixa o seu cântaro para trás</strong> — abandona
+                    suas velhas seguranças e pecados — e corre para a cidade.
+                    Ela torna-se missionária, dizendo aos outros:{" "}
+                    <em>"Vinde ver!"</em>. É este o movimento do nosso carisma:
+                    deixar Jesus saciar a nossa sede para, em seguida, corrermos
+                    ao encontro dos outros corações pobres,{" "}
+                    <strong>dando-O a conhecer</strong>.
                   </p>
                 </div>
               </div>
@@ -79,13 +112,12 @@ export default function Charism() {
       {/* Seções detalhadas do Carisma */}
       <section className="px-6">
         <div className="max-w-5xl mx-auto flex flex-col gap-20">
-          
           {/* O que é o Amor? */}
           <FadeIn delay={300} threshold={0.2}>
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="w-full md:w-1/2 relative aspect-square md:aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                 <img
-                  src={ostensorio}
+                  src={quadra2}
                   alt="O Amor - Santíssimo Sacramento"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />
@@ -96,9 +128,9 @@ export default function Charism() {
                 </h2>
                 <p className="text-lg text-neutral-700 leading-relaxed mb-4">
                   Para nós, o Amor não é um sentimento passageiro, uma ideia
-                  abstrata ou um conceito filosófico. <strong>O Amor é uma Pessoa: Jesus
-                  Cristo.</strong> E Ele se faz carne e alimento na Sagrada
-                  Eucaristia.
+                  abstrata ou um conceito filosófico.{" "}
+                  <strong>O Amor é uma Pessoa: Jesus Cristo.</strong> E Ele se
+                  faz carne e alimento na Sagrada Eucaristia.
                 </p>
                 <p className="text-lg text-neutral-700 leading-relaxed">
                   Conhecer o Amor é fazer uma experiência profunda, íntima e
@@ -116,7 +148,7 @@ export default function Charism() {
             <div className="flex flex-col md:flex-row-reverse items-center gap-10">
               <div className="w-full md:w-1/2 relative aspect-square md:aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                 <img
-                  src={saoFrancisco}
+                  src={procissao}
                   alt="Dar a conhecer - Evangelização"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />
@@ -126,17 +158,17 @@ export default function Charism() {
                   O que é "Dar a conhecer"?
                 </h2>
                 <p className="text-lg text-neutral-700 leading-relaxed mb-4">
-                  Muitos não amam a Deus porque ainda não O conhecem. Dar a conhecer
-                  é o impulso missionário que nos impede de guardar o tesouro da fé
-                  apenas para nós mesmos. É a urgência de anunciar, evangelizar e
-                  testemunhar com a própria vida.
+                  Muitos não amam a Deus porque ainda não O conhecem. Dar a
+                  conhecer é o impulso missionário que nos impede de guardar o
+                  tesouro da fé apenas para nós mesmos. É a urgência de
+                  anunciar, evangelizar e testemunhar com a própria vida.
                 </p>
                 <p className="text-lg text-neutral-700 leading-relaxed">
-                  Não se trata apenas de pregar palavras, mas de sermos pontes de
-                  misericórdia. Seja na rua, na faculdade, no trabalho ou em uma
-                  missão específica, "dar a conhecer" exige que nossas atitudes e
-                  olhares revelem o rosto do Cristo Salvador àqueles que andam na
-                  escuridão.
+                  Não se trata apenas de pregar palavras, mas de sermos pontes
+                  de misericórdia. Seja na rua, na faculdade, no trabalho ou em
+                  uma missão específica, "dar a conhecer" exige que nossas
+                  atitudes e olhares revelem o rosto do Cristo Salvador àqueles
+                  que andam na escuridão.
                 </p>
               </div>
             </div>
@@ -147,7 +179,7 @@ export default function Charism() {
             <div className="flex flex-col md:flex-row items-center gap-10">
               <div className="w-full md:w-1/2 relative aspect-square md:aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                 <img
-                  src={santaTeresa}
+                  src={pintura}
                   alt="Corações pobres - Santa Teresa de Calcutá"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />
@@ -157,17 +189,18 @@ export default function Charism() {
                   Quem são os "corações pobres"?
                 </h2>
                 <p className="text-lg text-neutral-700 leading-relaxed mb-4">
-                  O "coração pobre" transcende a pobreza material. Embora sejamos
-                  chamados a socorrer aqueles que não têm o que comer ou vestir,
-                  o nosso carisma olha profundamente para as misérias do espírito.
+                  O "coração pobre" transcende a pobreza material. Embora
+                  sejamos chamados a socorrer aqueles que não têm o que comer ou
+                  vestir, o nosso carisma olha profundamente para as misérias do
+                  espírito.
                 </p>
                 <p className="text-lg text-neutral-700 leading-relaxed">
                   Os corações pobres são os solitários, os depressivos, os que
                   perderam o sentido da vida, os que estão presos ao pecado, aos
-                  vícios e à falta de esperança. Um jovem em um quarto confortável
-                  pode ter um "coração pobre" que agoniza por salvação. É a esses, os que
-                  mais sofrem e que o mundo muitas vezes esquece, que o nosso
-                  Amor precisa chegar primeiro.
+                  vícios e à falta de esperança. Um jovem em um quarto
+                  confortável pode ter um "coração pobre" que agoniza por
+                  salvação. É a esses, os que mais sofrem e que o mundo muitas
+                  vezes esquece, que o nosso Amor precisa chegar primeiro.
                 </p>
               </div>
             </div>
@@ -185,14 +218,15 @@ export default function Charism() {
                 Um convite a viver este Amor
               </h3>
               <p className="text-lg md:text-xl font-body leading-relaxed text-primary-100 italic">
-                "Nós conhecemos e cremos no amor que Deus tem por nós. Deus é amor;
-                quem permanece no amor, permanece em Deus e Deus nele." (1 João 4,16)
+                "Nós conhecemos e cremos no amor que Deus tem por nós. Deus é
+                amor; quem permanece no amor, permanece em Deus e Deus nele." (1
+                João 4,16)
               </p>
               <div className="mt-10">
                 <p className="text-base text-white/80">
-                  Nosso carisma é a força motriz que nos faz levantar todos os dias,
-                  esquecer os próprios interesses e seguir Aquele que nos amou por
-                  primeiro.
+                  Nosso carisma é a força motriz que nos faz levantar todos os
+                  dias, esquecer os próprios interesses e seguir Aquele que nos
+                  amou por primeiro.
                 </p>
               </div>
             </div>
