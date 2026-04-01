@@ -1,31 +1,36 @@
-import { HeartIcon, LightningBoltIcon, SunIcon } from "@radix-ui/react-icons";
-import { Button } from "./ui/button";
 import { useNavigate } from "react-router-dom";
 import { FadeIn } from "./ui/fade-in";
+import { Button } from "./ui/button";
+import { 
+  MdVolunteerActivism, 
+  MdOutlineAutoStories, 
+  MdOutlineCloudQueue 
+} from "react-icons/md";
 
 const pillars = [
   {
     title: "Pobres",
     description:
       "Viver a simplicidade e a dependência total da providência divina, despojados de nós mesmos.",
-    icon: <HeartIcon className="w-8 h-8 text-primary-600" />,
+    icon: <MdVolunteerActivism className="w-8 h-8 text-primary-600" />,
   },
   {
     title: "Íntimos da Verdade",
     description:
       "Buscar a Deus no silêncio, na oração e no estudo, deixando que a Verdade nos liberte.",
-    icon: <LightningBoltIcon className="w-8 h-8 text-primary-600" />,
+    icon: <MdOutlineAutoStories className="w-8 h-8 text-primary-600" />,
   },
   {
     title: "Livres",
     description:
       "A liberdade de quem se sabe amado por Deus e escolhe segui-Lo sem reservas.",
-    icon: <SunIcon className="w-8 h-8 text-primary-600" />,
+    icon: <MdOutlineCloudQueue className="w-8 h-8 text-primary-600" />,
   },
 ];
 
 export default function PillarsSection() {
   const navigate = useNavigate();
+
   return (
     <section className="py-20 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
@@ -47,7 +52,7 @@ export default function PillarsSection() {
               <div
                 className="h-full p-8 rounded-2xl bg-primary-50 border border-primary-100 flex flex-col items-center text-center transition-all hover:shadow-lg hover:border-primary-200 hover:-translate-y-1"
               >
-                <div className="mb-6 p-4 bg-white rounded-full shadow-sm">
+                <div className="mb-6 p-4 bg-white rounded-full shadow-sm flex items-center justify-center">
                   {pillar.icon}
                 </div>
                 <h3 className="text-2xl font-heading text-primary-800 mb-4">

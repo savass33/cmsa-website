@@ -23,52 +23,21 @@ export default function StorySection() {
             <div className="w-20 h-1 bg-secondary-500 rounded-full mb-16"></div>
 
             <p className="text-lg text-neutral-700 leading-relaxed mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              pharetra ac leo nec dignissim. Aenean vel condimentum sapien. Sed
-              faucibus rhoncus varius. Phasellus ante tortor, convallis sed
-              dolor eget, facilisis pretium turpis. Ut tortor massa, tempor id
-              ante a, accumsan feugiat nunc. Cras sit amet ligula aliquet,
+              A Comunidade Mariana Sagrado Amor foi fundada no dia 02 de junho de 2019, em Fortaleza, na Paróquia de Fátima, por Gabriele Estrela, com a direção espiritual do Pe. Ivan de Sousa. É fruto de um ardente desejo de fazer a vontade de Deus, de estar com Ele e amá-Lo sem medidas.
             </p>
             <p className="text-lg text-neutral-700 leading-relaxed mb-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-              pharetra ac leo nec dignissim. Aenean vel condimentum sapien. Sed
-              faucibus rhoncus varius.
+              Existimos para "dar a conhecer o Amor a todo coração pobre". Esse é o nosso Carisma. Deus nos pede, a cada dia, para ir até cada coração, sem reservas, levando esse Amor que nos move, que é o sentido de tudo para nós.
             </p>
           </div>
         </div>
-        <p className="text-lg text-neutral-700 leading-relaxed mt-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra
-          ac leo nec dignissim. Aenean vel condimentum sapien. Sed faucibus
-          rhoncus varius. Phasellus ante tortor, convallis sed dolor eget,
-          facilisis pretium turpis. Ut tortor massa, tempor id ante a, accumsan
-          feugiat nunc. Cras sit amet ligula aliquet, suscipit ligula vitae,
-          fringilla purus. In non blandit purus. Nullam et felis lacus. Integer
-          placerat, nisl sed interdum venenatis, diam urna dictum lectus,
-          vehicula molestie quam diam id risus. Integer ornare massa a tellus
-          condimentum congue. Ut libero sem, porta nec dui a, dapibus viverra
-          erat. Nunc posuere enim porttitor mollis rutrum. Donec nec nulla id
-          mauris elementum hendrerit. Praesent sit amet facilisis eros. Nulla
-          lectus ligula, sodales vel convallis sit amet, scelerisque vel nisi.
-          Ut gravida leo at laoreet auctor. Duis aliquam, leo eu auctor
-          molestie, urna nunc cursus neque, nec finibus tortor sem quis nibh.
-          Maecenas finibus condimentum mattis. Proin varius magna nec facilisis
-          vehicula. Orci varius natoque penatibus et magnis dis parturient
-          montes, nascetur ridiculus mus. Mauris sit amet porta ex. Morbi
-          sodales nunc in fermentum pharetra. Aenean eu eleifend augue. Nulla
-          blandit, est et lobortis dapibus, odio urna dignissim nulla, sed
-          ultricies nisi enim non arcu.
-        </p>
-        <p className="text-lg text-neutral-700 leading-relaxed mt-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra
-          ac leo nec dignissim. Aenean vel condimentum sapien. Sed faucibus
-          rhoncus varius. Phasellus ante tortor, convallis sed dolor eget,
-          facilisis pretium turpis. Ut tortor massa, tempor id ante a, accumsan
-          feugiat nunc. Cras sit amet ligula aliquet,
-        </p>
-        <p className="text-lg text-neutral-700 leading-relaxed mt-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra
-          ac leo nec dignissim.
-        </p>
+        <div className="mt-10 flex flex-col gap-6">
+          <p className="text-lg text-neutral-700 leading-relaxed">
+            De forma prática, nossa missão contribui para a manutenção da nossa Casa Santa Teresa de Calcutá, onde realizamos alguns grupos de oração e também o Centro Cultural e o Grupo Olaria de Deus.
+          </p>
+          <p className="text-lg text-neutral-700 leading-relaxed">
+            Além disso, contamos com a Capela São José, onde realizamos assembleias, missas e novenas. Tudo para dar a conhecer o Amor a todo coração pobre.
+          </p>
+        </div>
       </div>
     </section>
   );

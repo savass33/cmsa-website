@@ -2,9 +2,9 @@ import { useNavigate } from "react-router-dom";
 import Card from "./card";
 import { Button } from "./ui/button";
 import { FadeIn } from "./ui/fade-in";
-import ostensorio from "../assets/images/ostensorio.jpg";
+import intercessao from "../assets/images/ostensorio.jpg";
 import musica from "../assets/images/musica.jpeg";
-import liturgia from "../assets/images/liturgia.jpg";
+import liturgia from "../assets/images/interofc.jpeg";
 
 export default function MinistriesSection() {
   const navigate = useNavigate();
@@ -34,7 +34,7 @@ export default function MinistriesSection() {
           <FadeIn delay={200} threshold={0}>
             <Card
               title="Intercessão"
-              image={ostensorio}
+              image={intercessao}
               description="Sustentamos a missão através da oração constante. Nossos intercessores se colocam na brecha pela Igreja, pelo clero e por todos os que nos confiam suas intenções e dores. Cremos no poder da oração que move montanhas."
               orientation="horizontal"
               reversed
