@@ -100,7 +100,7 @@ export default function Donate() {
               <a href="https://wa.me/5585986972081" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-1 text-neutral-700 hover:text-primary-600 transition-colors">
                 <div className="flex items-center gap-3">
                   <FaWhatsapp size={24} className="text-green-500" />
-                  <span className="text-lg font-medium">(85) 998697-2081</span>
+                  <span className="text-lg font-medium">(85) 98697-2081</span>
                 </div>
                 <span className="text-sm font-medium text-neutral-500 italic">Maria de Fátima</span>
               </a>
